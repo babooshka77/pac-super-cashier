@@ -46,24 +46,26 @@ Test Cases made to make sure the program met the expected requirements which was
 Customer added 2 items with *add_item()* method.
     - Item: Ayam Goreng, Qty: 2 dan Price: 20000
     - Item: Pasta Gigi, Qty: 3 dan Price: 15000
+<br>
 
-Result:
-![test01](screenshots/test01.png)
-
+![test01](screenshots/testcase01.png)
+</br>
 
 ## Test Case 2
 Customer wrongfully added items, thus use *delete_item()* method to remove "Pasta Gigi" from the order.
-
-Result:
-![test02](screenshots/test02.png)
+<br>
+![test02](screenshots/test02.png)</br>
 
 
 ## Test Case 3
 Customer wanted to delete all transactions data. Use *reset_transaction()* method.
+<br>
 ![test03](screenshots/test03.png)
+</br>
 
 ## Test Case 4
 Customer finsihed shopping and wanted to checkout all the items they bought. Use *total_price()* method.
+<br>
 ![test04](screenshots/test04.png)
-
+</br>
 
