@@ -36,6 +36,9 @@ This project consists of <b> 2 python files. </b>
 - main.py is an executable file to run Super Cashier program.
 - modul.py contains classes, functions, attributes used in the Super Cashier program.
 
+## Flowchart
+![flowchart](screenshots/flowchart_white.png)
+
 # Test Case
 Test Cases made to make sure the program met the expected requirements which was stated in <b> Technical and Features Requirements </b> above.
 
@@ -44,5 +47,23 @@ Customer added 2 items with *add_item()* method.
     - Item: Ayam Goreng, Qty: 2 dan Price: 20000
     - Item: Pasta Gigi, Qty: 3 dan Price: 15000
 
-    Hasil:
-    
+Result:
+![test01](screenshots/test01.png)
+
+
+## Test Case 2
+Customer wrongfully added items, thus use *delete_item()* method to remove "Pasta Gigi" from the order.
+
+Result:
+![test02](screenshots/test02.png)
+
+
+## Test Case 3
+Customer wanted to delete all transactions data. Use *reset_transaction()* method.
+![test03](screenshots/test03.png)
+
+## Test Case 4
+Customer finsihed shopping and wanted to checkout all the items they bought. Use *total_price()* method.
+![test04](screenshots/test04.png)
+
+
