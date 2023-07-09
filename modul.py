@@ -1,4 +1,5 @@
-class Transaction2:
+import pandas as pd
+class Transaction:
     """
     Represents a transaction management system.
 
@@ -145,7 +146,7 @@ class Transaction2:
             None
         """
         while True:
-            item_name = input('Item (type "done" to finish adding items): ')
+            item_name = input('\nItem (type "done" to finish adding items): ')
             if item_name == "done":
                 break
             while True:
@@ -341,6 +342,7 @@ class Transaction2:
         Return:
             None
         """
+        self.display_data() #display transaction data
         total_before_disc = sum(self.data["Total Price"])
         total_after_disc = 0
         disc = 0

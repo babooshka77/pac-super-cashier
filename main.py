@@ -2,3 +2,4 @@
 from modul import Transaction
 
 trx = Transaction()
+trx.start()
